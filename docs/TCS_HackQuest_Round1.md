@@ -1,6 +1,6 @@
 ## 1. Breaking Bad
 
-Writeup :
+Solution :
 
 A ` message.txt `text file is given. 
 
@@ -18,7 +18,7 @@ And Get the hidden flag key.
 
 ## 2. Splatter The Bug
 
-Writeup :
+Solution :
 
 A link is given, which bring us to a webpage.
 There was a `bug` appearing at random location at page when tried we tried to click on it, but can not able to click on it.
@@ -29,7 +29,7 @@ So try to call `ladybug.click();` in console. And it will reveal the hidden flag
 
 ## 3. Dussahas Dice
 
-Writeup :
+WriteuSolution :
 
 It is same as earlier `Splatter The Bug`, A site is given for rolling dice and with obfuscated javascript code, and a commented and partially written function `checkRolls(a,b)`.
 
@@ -39,7 +39,7 @@ So I tried to call the function `checkRolls(6,6)` in console and the site reveal
 
 ## 4. Codepool
 
-Writeup :
+WriteuSolution :
 
 A `QuestFile_Codepool.txt` text file is given.
 
@@ -56,7 +56,7 @@ So enter  the encrypted text `WF9{tktgnadfjprxdjhstpseddawphpetitg}` in the inpu
 
 ## 5. Crypto Conundrum
 
-Writeup :
+WriteuSolution :
 
 A `QuestFile_CryptoConundrum` text file is given.
 
