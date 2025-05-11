@@ -5,7 +5,7 @@ I’m a **cybersecurity enthusiast**. This is my portfolio site, where I showcas
 
 ##  Projects :
 
-- **Setup a SOC Lab Environment**
+- **Setup a SOC Lab Environment over the Cloud**
 
 - **Organinze two college-wide CTFs events**
 

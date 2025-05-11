@@ -14,7 +14,7 @@ HQ9{1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19}
 
 Decode  ` 1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19 ` using Periodic Table Decoder from <https://www.dcode.fr/atomic-number-substitution> .
 
-![Breaking_Bad](assets\TCS_Hackquest_1\breking.png)
+![Breaking_Bad](assets/TCS_Hackquest_1/breking.png)
 
 And Get the hidden flag key.
 
