@@ -33,6 +33,12 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./site
+      
+      - name: Upload build as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mkdocs-site
+          path: site/
 
   deploy:
     if: github.ref == 'refs/heads/main'
