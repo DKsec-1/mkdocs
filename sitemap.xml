@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sitename.example/About/</loc>
+         <lastmod>2025-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/TCS_HackQuest_Round1/</loc>
+         <lastmod>2025-05-11</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/TCS_HackQuest_Round2/</loc>
+         <lastmod>2025-05-11</lastmod>
+    </url>
+</urlset>

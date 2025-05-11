@@ -1,0 +1,533 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://sitename.example/TCS_HackQuest_Round1/">
+      
+      
+        <link rel="prev" href="../About/">
+      
+      
+        <link rel="next" href="../TCS_HackQuest_Round2/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
+    
+    
+      
+        <title>TCS HackQuest Round1 - DKsec</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-breaking-bad" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="DKsec" class="md-header__button md-logo" aria-label="DKsec" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DKsec
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TCS HackQuest Round1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="DKsec" class="md-nav__button md-logo" aria-label="DKsec" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DKsec
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../About/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hello, I'm Deepak Kumar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    TCS HackQuest Round1
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    TCS HackQuest Round1
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-breaking-bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breaking Bad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-splatter-the-bug" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Splatter The Bug
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-dussahas-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Dussahas Dice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-codepool" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Codepool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-crypto-conundrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Crypto Conundrum
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TCS_HackQuest_Round2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TCS HackQuest Round2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-breaking-bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breaking Bad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-splatter-the-bug" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Splatter The Bug
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-dussahas-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Dussahas Dice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-codepool" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Codepool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-crypto-conundrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Crypto Conundrum
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>TCS HackQuest Round1</h1>
+
+<h2 id="1-breaking-bad">1. Breaking Bad</h2>
+<p>Solution :</p>
+<p>A <code>message.txt</code>text file is given. </p>
+<pre><code>Welcome to the &quot;Breaking Bad&quot; challenge! In this cryptographic puzzle, your mission is to decipher a secret message that has been cleverly encoded. The theme revolves around the idea of breaking down this chemical compound and uncovering hidden truths.
+
+HQ9{1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19}
+</code></pre>
+<p>Decode  <code>1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19</code> using Periodic Table Decoder from <a href="https://www.dcode.fr/atomic-number-substitution">https://www.dcode.fr/atomic-number-substitution</a> .</p>
+<p><img alt="Breaking_Bad" src="assets\breking.png" /></p>
+<p>And Get the hidden flag key.</p>
+<h2 id="2-splatter-the-bug">2. Splatter The Bug</h2>
+<p>Solution :</p>
+<p>A link is given, which bring us to a webpage.
+There was a <code>bug</code> appearing at random location at page when tried we tried to click on it, but can not able to click on it.</p>
+<p>when the source code is viewed of the webpage using Developer tools, there was a lot of obfuscated code of javascript, which is very hard to de-obfuscated. but there was a hint at the normal javascript code which is a <code>ladybug.click()</code> function, commented and partially written.</p>
+<p>So try to call <code>ladybug.click();</code> in console. And it will reveal the hidden flag key on the page.</p>
+<h2 id="3-dussahas-dice">3. Dussahas Dice</h2>
+<p>WriteuSolution :</p>
+<p>It is same as earlier <code>Splatter The Bug</code>, A site is given for rolling dice and with obfuscated javascript code, and a commented and partially written function <code>checkRolls(a,b)</code>.</p>
+<p>So I tried to call the function <code>checkRolls(6,6)</code> in console and the site revealed the hidden flag key.</p>
+<p><img alt="dussahas_dice" src="../assets/dice.png" /></p>
+<h2 id="4-codepool">4. Codepool</h2>
+<p>WriteuSolution :</p>
+<p>A <code>QuestFile_Codepool.txt</code> text file is given.</p>
+<pre><code>WF9{tktgnadfjprxdjhstpseddawphpetitg}
+</code></pre>
+<p>The Challenge statement hints towards search <code>decode rot7</code> on google and after searching it on google, there is a site <a href="https://theblob.org/rot.cgi">https://theblob.org/rot.cgi</a> which decrypt the input text from rot0 to rot25.</p>
+<p><img alt="codepool_1" src="../assets/codepool_1.png" /></p>
+<p>So enter  the encrypted text <code>WF9{tktgnadfjprxdjhstpseddawphpetitg}</code> in the input section and it will present the out from rot0 to rot25 and at rot11, there is a familiar pattern of <code>HQ9{...}</code> which is of the hidden flag key and it was the hidden flag key.</p>
+<p><img alt="codepool_1" src="../assets/codepool_2.png" /></p>
+<h2 id="5-crypto-conundrum">5. Crypto Conundrum</h2>
+<p>WriteuSolution :</p>
+<p>A <code>QuestFile_CryptoConundrum</code> text file is given.</p>
+<pre><code>0xc2a691b9fd2bc5c28408efa34be7243d8ec96e3dbdbff14fb32716c882f734e9
+</code></pre>
+<p>As the Challenge statement and as the text format hints, the text is seems to be belonging to a transaction in sepolia testnetwork.</p>
+<p>there is a site <a href="https://sepolia.etherscan.io/">https://sepolia.etherscan.io/</a> where all testnet transaction and other information regarding it can be seen and searched.</p>
+<p>So visit the page and search for <code>0xc2a691b9fd2bc5c28408efa34be7243d8ec96e3dbdbff14fb32716c882f734e9</code> in search bar, and it present the transaction details,Go to the <code>Logs</code> tab and in <code>twitterHandle</code> value in <code>Data</code> the hidden flag key can be seen in hexadecimal form.</p>
+<p><img alt="crypto_1" src="../assets/cypto_1.png" /></p>
+<p><img alt="crypto_2" src="../assets/crypto_2.png" /></p>
+<p>Decode it and get the hidden flag key .</p>
+<p><img alt="crypto_3" src="../assets/crypto_3.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
