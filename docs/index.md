@@ -30,5 +30,5 @@ I’m a **cybersecurity enthusiast**. This is my portfolio site, where I showcas
 
 ## 📫 Contact :
 
-You can reach me on [LinkedIn](www.linkedin.com/in/deepak-kumar-15a095228) or [diwakar.dk.84@gmail.com](mailto:diwakar.dk.84@gmail.com).
+You can reach me on [LinkedIn](https://www.linkedin.com/in/deepak-kumar-15a095228/) or [diwakar.dk.84@gmail.com](mailto:diwakar.dk.84@gmail.com).
 
