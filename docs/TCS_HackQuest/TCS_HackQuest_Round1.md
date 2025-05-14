@@ -14,7 +14,7 @@ HQ9{1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19}
 
 Decode  ` 1 89 19 50 39 103 5 9 74 16 59 6 19 114 23 1 1 5 83 15 23 33 6 19 ` using Periodic Table Decoder from <https://www.dcode.fr/atomic-number-substitution> .
 
-![Breaking_Bad](assets/TCS_Hackquest_1/breking.png)
+![Breaking_Bad](../assets/TCS_Hackquest_1/breking.png)
 
 And Get the hidden flag key.
 
@@ -39,7 +39,7 @@ It is same as earlier `Splatter The Bug`, A site is given for rolling dice and w
 
 So I tried to call the function `checkRolls(6,6)` in console and the site revealed the hidden flag key.
 
-![dussahas_dice](assets/TCS_Hackquest_1/dice.png)
+![dussahas_dice](../assets/TCS_Hackquest_1/dice.png)
 
 
 ## 4. Codepool
@@ -53,11 +53,11 @@ WF9{tktgnadfjprxdjhstpseddawphpetitg}
 ```
 The Challenge statement hints towards search `decode rot7` on google and after searching it on google, there is a site <https://theblob.org/rot.cgi> which decrypt the input text from rot0 to rot25.
 
-![codepool_1](assets/TCS_Hackquest_1/codepool_1.png)
+![codepool_1](../assets/TCS_Hackquest_1/codepool_1.png)
 
 So enter  the encrypted text `WF9{tktgnadfjprxdjhstpseddawphpetitg}` in the input section and it will present the out from rot0 to rot25 and at rot11, there is a familiar pattern of `HQ9{...}` which is of the hidden flag key and it was the hidden flag key.
 
-![codepool_1](assets/TCS_Hackquest_1/codepool_2.png)
+![codepool_2](../assets/TCS_Hackquest_1/codepool_2.png)
 
 
 ## 5. Crypto Conundrum
@@ -76,10 +76,10 @@ there is a site <https://sepolia.etherscan.io/> where all testnet transaction an
 
 So visit the page and search for `0xc2a691b9fd2bc5c28408efa34be7243d8ec96e3dbdbff14fb32716c882f734e9` in search bar, and it present the transaction details,Go to the `Logs` tab and in `twitterHandle` value in `Data` the hidden flag key can be seen in hexadecimal form.
 
-![crypto_1](assets/TCS_Hackquest_1/cypto_1.png)
+![crypto_1](../assets/TCS_Hackquest_1/cypto_1.png)
 
-![crypto_2](assets/TCS_Hackquest_1/crypto_2.png)
+![crypto_2](../assets/TCS_Hackquest_1/crypto_2.png)
 
 Decode it and get the hidden flag key .
 
-![crypto_3](assets/TCS_Hackquest_1/crypto_3.png)
+![crypto_3](../assets/TCS_Hackquest_1/crypto_3.png)

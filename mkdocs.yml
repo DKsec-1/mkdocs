@@ -4,3 +4,10 @@ theme:
   name: material
   palette:
     scheme: slate
+nav:
+  - Home: index.md
+  - TCS_HackQuest:
+      - TCS_HackQuest_Round_1: TCS_HackQuest/TCS_HackQuest_Round1.md
+      - TCS_HackQuest_Round_2: TCS_HackQuest/TCS_HackQuest_Round2.md
+  - PortSwigger Web-Security Labs:
+      - Authentication: Portswigger_labs/Authentication.md
