@@ -11,3 +11,8 @@ nav:
       - TCS_HackQuest_Round_2: TCS_HackQuest/TCS_HackQuest_Round2.md
   - PortSwigger Web-Security Labs:
       - Authentication: Portswigger_labs/Authentication.md
+      - Business logic vulnerabilities: Portswigger_labs/Business_logic_vulnerabilities.md
+      - Clickjacking: Portswigger_labs/Clickjacking.md
+      - Cross-origin resource sharing (CORS): Portswigger_labs/CORS.md
+      - Cross-site request forgery (CSRF): Portswigger_labs/CSRF.md
+      - Insecure deserialization: Portswigger_labs/Insecure_deserialization
