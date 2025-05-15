@@ -16,3 +16,6 @@ nav:
       - Cross-origin resource sharing (CORS): Portswigger_labs/CORS.md
       - Cross-site request forgery (CSRF): Portswigger_labs/CSRF.md
       - Insecure deserialization: Portswigger_labs/Insecure_deserialization
+      - NoSQL injection: Portswigger_labs/NoSQL_Inj.md
+      - Server-side template injection: Portswigger_labs/SS_tem_Inj.md
+      - SQL injection: Portswigger_labs/SQL_Inj.md

@@ -32,4 +32,4 @@
 	</body>
 </html>
 ```
-4. Then store and deliver to the victim. and open access log , where admin api key can be seen , submit it. 
+4. Then store and deliver to the victim. and open access log , where admin api key can be seen, submit it. 
