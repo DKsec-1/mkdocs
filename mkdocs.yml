@@ -19,3 +19,4 @@ nav:
       - NoSQL injection: Portswigger_labs/NoSQL_Inj.md
       - Server-side template injection: Portswigger_labs/SS_tem_Inj.md
       - SQL injection: Portswigger_labs/SQL_Inj.md
+      - Server-side request forgery (SSRF): Portswigger_labs/ssrf.md
