@@ -1,4 +1,3 @@
-## Brooklyn Nine Nine
 **lab link: <https://tryhackme.com/room/brooklynninenine>**
 
 Scanning 
