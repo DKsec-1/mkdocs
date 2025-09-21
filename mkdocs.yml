@@ -20,3 +20,5 @@ nav:
       - Server-side template injection: Portswigger_labs/SS_tem_Inj.md
       - SQL injection: Portswigger_labs/SQL_Inj.md
       - Server-side request forgery (SSRF): Portswigger_labs/ssrf.md
+  - Try Hack Me Romms:
+      - Basic Pentesting
