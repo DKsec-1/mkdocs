@@ -21,4 +21,4 @@ nav:
       - SQL injection: Portswigger_labs/SQL_Inj.md
       - Server-side request forgery (SSRF): Portswigger_labs/ssrf.md
   - Try Hack Me Rooms:
-      - Brooklyn Nine Nine: try_hack_me/brooklyn_nine_nine.md
+      - Brooklyn Nine Nine: Try_hack_me/brooklyn_nine_nine.md
