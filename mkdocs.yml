@@ -22,3 +22,4 @@ nav:
       - Server-side request forgery (SSRF): Portswigger_labs/ssrf.md
   - Try Hack Me Rooms:
       - Brooklyn Nine Nine: Try_hack_me/brooklyn_nine_nine.md
+      - Agent Sudo: Try_hack_me/Agent_sudo.md
