@@ -1,6 +1,6 @@
 **lab link: <https://tryhackme.com/room/brooklynninenine>**
 
-Scanning 
+Scanning :
 
 ![nmap](../assets/tryhackme/agent_sudo/nmap.png)
 

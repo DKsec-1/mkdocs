@@ -1,6 +1,6 @@
 **lab link: <https://tryhackme.com/room/bruteit>**
 
-Scanning 
+Scanning :
 
 ![nmap](../assets/tryhackme/brute_it/nmap.png)
 

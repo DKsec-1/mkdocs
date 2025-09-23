@@ -1,6 +1,6 @@
 **lab link: <https://tryhackme.com/room/yearoftherabbit>**
 
-Scanning 
+Scanning :
 
 ![nmap](../assets/tryhackme/yearoftherabbit/nmap.png)
 

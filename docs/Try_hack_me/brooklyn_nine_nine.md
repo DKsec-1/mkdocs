@@ -1,7 +1,6 @@
 **lab link: <https://tryhackme.com/room/brooklynninenine>**
 
-Scanning 
-
+Scanning :
 
 ![nmap](../assets/tryhackme/brooklyn_nine_nine/nmap.png)
 
