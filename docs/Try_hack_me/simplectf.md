@@ -20,7 +20,7 @@ Use the `CVE` exploit to get the Creds and ssh to the user, and get the `user.tx
 
 ![user](../assets/tryhackme/simple_ctf/user_txt.png)
 
-Now `Sudo -l` to get the sudo commands...
+Now `sudo -l` to get the sudo commands...
 
 ![sudo](../assets/tryhackme/simple_ctf/vim_exp.png)
 
