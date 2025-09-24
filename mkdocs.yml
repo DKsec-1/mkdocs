@@ -21,10 +21,10 @@ nav:
       - SQL injection: Portswigger_labs/SQL_Inj.md
       - Server-side request forgery (SSRF): Portswigger_labs/ssrf.md
   - Try Hack Me Rooms:
-      - Brooklyn Nine Nine: Try_hack_me/brooklyn_nine_nine.md
       - Agent Sudo: Try_hack_me/Agent_sudo.md
-      - Year of the Rabbit: Try_hack_me/yearofrabbit.md
-      - Brute It: Try_hack_me/bruteit.md
-      - Simple CTF: Try_hack_me/simplectf.md
-      - Lian_Yu: Try_hack_me/lianyu.md
       - Bounty Hacker: Try_hack_me/bountyhacker.md
+      - Brooklyn Nine Nine: Try_hack_me/brooklyn_nine_nine.md
+      - Brute It: Try_hack_me/bruteit.md
+      - Lian_Yu: Try_hack_me/lianyu.md
+      - Simple CTF: Try_hack_me/simplectf.md
+      - Year of the Rabbit: Try_hack_me/yearofrabbit.md
